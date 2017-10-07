@@ -1,0 +1,64 @@
+body{
+  background-image:url(img6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  top:0;
+  left:0;
+
+}
+
+.container{
+  width:500px;
+  height:500px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 320px;
+
+}
+
+
+input {
+  height:50px;
+  width:300px;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 24px;
+  margin-bottom: 50px;
+  background-color:rgba(255, 255, 255, 0.5);
+
+}
+input::placeholder{
+  color:white;
+}
+
+.btn-login{
+  height:50px;
+  width:180px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  border:none;
+  cursor: pointer;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 24px;
+  font-weight: bold;
+  font-color:#000000;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.a{
+  text-decoration: none;
+  color: white;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.a:link { text-decoration: none; color:white;background-color: white; }
+.a:visited { text-decoration: none; color:white; background-color: white;}
+.a:hover { text-decoration: none; color:white; background-color: white;}
+.a:focus { text-decoration: none; color:white;background-color: white; }
+.a:hover { text-decoration: none; color:white; background-color: white;}
+.a:active { text-decoration: none; color:white; background-color: white;}
+}
